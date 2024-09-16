@@ -1,0 +1,131 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - Email Template Developer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+        p {
+            color: #555;
+            line-height: 1.6;
+        }
+        .skills {
+            margin-top: 20px;
+        }
+        .skills ul {
+            list-style: none;
+            padding: 0;
+        }
+        .skills ul li {
+            background-color: #f9f9f9;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-left: 4px solid #007bff;
+        }
+        .contact {
+            margin-top: 20px;
+        }
+        .contact a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        .a1{
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            margin-top: 20px;
+            font-size: 20px;
+            font-weight: 700;
+            box-shadow: 2px 3px 5px #ccc;
+            text-decoration: none;
+            padding: 5px 10px;
+        }
+        .a1:hover{
+            background-color: #0069d9;
+            color: #fff;
+            box-shadow: 2px 3px 5px #999;
+        }
+    .a1:active{
+            background-color: #0056b3;
+            box-shadow: 2px 3px 5px #999;
+            transform: translateY(2px);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>About Me</h1>
+        <p>
+            Hi, I'm Natnael Mathewos, an experienced Email Template Developer with a passion for crafting visually appealing and responsive email templates that engage and convert. With years of experience in HTML, CSS, and email marketing tools, I specialize in creating customized, cross-platform email campaigns tailored to the needs of businesses and individuals.
+        </p>
+
+        <h2>What I Do</h2>
+        <p>
+            Whether it's designing from scratch or improving existing templates, I take pride in delivering designs that are both functional and aesthetically pleasing. My work focuses on:
+        </p>
+
+        <div class="skills">
+            <ul>
+                <li>Responsive Email Design</li>
+                <li>Cross-Client Compatibility (Outlook, Gmail, Yahoo, etc.)</li>
+                <li>HTML Email Best Practices</li>
+                <li>Template Optimization for Performance</li>
+                <li>Email Automation and Marketing Integration</li>
+            </ul>
+        </div>
+
+        <h2 id="h2">Why Work with Me?</h2>
+        <p id="text">
+            I understand the importance of user-friendly and efficient email templates that deliver results. By following industry standards, I ensure that every email template I create is optimized for all major devices and email clients, ensuring a seamless experience for your audience.
+        </p>
+<div>
+    <a href="mailto:nathnaelmathewos277@gmail.com" class="a1" id="btn">Hire Me</a>
+</div>
+        <div class="contact">
+            <h2>Get in Touch</h2>
+            <p>Feel free to <a href="mailto:natnael@example.com">reach out via email</a> if you're looking for a skilled Email Template Developer to help with your next project. Let's create something amazing together!</p>
+        </div>
+    </div>
+<script>
+let btn = document.getElementById('btn');
+btn.onclick = function() {
+    if(btn.style.backgroundColor = 'red'){
+        btn.style.backgroundColor = 'green';
+    }else{
+        btn.style.backgroundColor = 'red';
+    };
+};
+window.onload = function() {
+    alert('This is About Me page. Please check it out!');
+    
+};
+window.onscroll = function() {
+            
+            let textElement = document.getElementById("text");
+            textElement.onscroll.fontSize = '20px';
+        };
+</script>
+</body>
+</html>
